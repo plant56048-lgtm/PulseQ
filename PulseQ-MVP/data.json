@@ -1,0 +1,70 @@
+{
+  "patient": {
+    "name": "Maya Sharma",
+    "token": "C-130",
+    "appointment_id": "PQ-2F81B1",
+    "department": "Cardiology",
+    "doctor": "Dr. Ananya Rao",
+    "date": "2026-09-04",
+    "time": "10:30 AM",
+    "arrived": false
+  },
+  "queue": [
+    {
+      "token": "C-124",
+      "name": "Aarav Patel",
+      "status": "serving"
+    },
+    {
+      "token": "C-125",
+      "name": "Riya Singh",
+      "status": "waiting"
+    },
+    {
+      "token": "C-126",
+      "name": "Dev Malhotra",
+      "status": "waiting"
+    },
+    {
+      "token": "C-128",
+      "name": "Ishaan Verma",
+      "status": "waiting"
+    },
+    {
+      "token": "C-131",
+      "name": "Harshitha",
+      "status": "waiting"
+    }
+  ],
+  "doctor_status": "Consulting",
+  "delay_minutes": 0,
+  "average_minutes": 9,
+  "emergencies": [],
+  "notifications": [
+    {
+      "title": "Appointment confirmed",
+      "message": "Your token C-130 is ready. Check in when you arrive.",
+      "time": "Just now",
+      "kind": "success"
+    },
+    {
+      "title": "Appointment confirmed",
+      "message": "Your token C-129 is ready. Check in when you arrive.",
+      "time": "Just now",
+      "kind": "success"
+    },
+    {
+      "title": "Appointment confirmed",
+      "message": "Your Cardiology appointment has been confirmed.",
+      "time": "Just now",
+      "kind": "success"
+    },
+    {
+      "title": "Queue registered",
+      "message": "You are checked in and have entered the queue.",
+      "time": "Just now",
+      "kind": "info"
+    }
+  ],
+  "next_token": 132
+}
